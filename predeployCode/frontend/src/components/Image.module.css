@@ -1,0 +1,27 @@
+.singlePhoto {
+  max-width: 60%;
+  align-self: auto;
+  margin: 1% 2px;
+  vertical-align: middle;
+}
+
+@media(max-width: 1300px) {
+  .singlePhoto {
+  max-width: 600px;
+}
+}
+@media(max-width: 900px) {
+  .singlePhoto {
+  max-width: 300px;
+}
+}
+@media(max-width: 600px) {
+  .singlePhoto {
+  max-width: 150px;
+}
+}
+@media(max-width: 350px) {
+  .singlePhoto {
+  max-width: 100px;
+}
+}
